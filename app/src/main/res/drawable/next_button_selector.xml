@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 활성화된 경우 -->
+    <item android:state_enabled="true" android:drawable="@drawable/next_enable_button"/>
+    <!-- 비활성화된 경우 -->
+    <item android:state_enabled="false" android:drawable="@drawable/next_disable_button"/>
+</selector>

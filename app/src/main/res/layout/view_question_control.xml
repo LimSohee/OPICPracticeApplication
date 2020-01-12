@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="@dimen/practice_activity_question_control_area_padding"
+        android:layout_marginLeft="@dimen/practice_activity_question_control_area_left_right_margin"
+        android:layout_marginRight="@dimen/practice_activity_question_control_area_left_right_margin"
+        android:background="@drawable/question_table_background">
+        <!--Eva 이미지 영역-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eva_image"
+            android:adjustViewBounds="true" />
+
+        <!--진행 안내 문구 영역-->
+        <TextView
+            android:id="@+id/status_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/practice_activity_status_text_padding"
+            android:gravity="center"
+            android:textSize="@dimen/practice_activity_status_text_size"
+            android:textColor="@color/StatusTextColor"
+            android:text="@string/status_text" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/practice_activity_play_button_area_padding"
+            android:background="@color/PlayButtonAreaBackgroundColor">
+            <!--재생 버튼 영역-->
+            <ImageView
+                android:id="@+id/play_button"
+                android:layout_width="@dimen/practice_activity_play_button_width_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/play_button_selector" />
+            <!--다시 재생 버튼 영역-->
+            <ImageView
+                android:id="@+id/replay_button"
+                android:layout_width="@dimen/practice_activity_play_button_width_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/replay_button_selector"
+                android:visibility="gone"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!--다음 문제 이동 버튼 영역-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/practice_activity_next_button_area_padding"
+        android:layout_gravity="bottom"
+        android:background="@drawable/question_table_background">
+        <ImageView
+            android:id="@+id/next_button"
+            android:layout_width="@dimen/practice_activity_next_button_width_size"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/next_button_selector" />
+    </LinearLayout>
+</LinearLayout>

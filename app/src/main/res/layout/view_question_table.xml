@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/practice_activity_question_table_area_padding"
+        android:background="@drawable/question_table_background">
+        <!--문제 테이블 영역-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/question_table_recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+        <!--진행 시간 영역-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/practice_activity_time_area_top_margin"
+            android:padding="@dimen/practice_activity_time_area_padding"
+            android:gravity="center"
+            android:background="@color/TimeAreaBackgroundColor">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/practice_activity_current_time_text_size"
+                android:layout_marginRight="@dimen/practice_activity_time_image_right_margin"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_time"/>
+            <TextView
+                android:id="@+id/textview_current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/practice_activity_current_time_text_size"
+                android:textColor="@color/TimeTextColor"
+                android:text="@string/current_time" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/practice_activity_current_time_text_size"
+                android:textColor="@color/TimeTextColor"
+                android:text="@string/total_time"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

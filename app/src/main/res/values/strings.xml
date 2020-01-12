@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">OPICPracticeApplication</string>
+
+    <!--Main Activity-->
+    <string name="main_menu_title1">OPIC Practice</string>
+    <string name="main_menu_title2">Application</string>
+    <string name="main_menu_script">스크립트 보기/듣기/말하기"</string>
+    <string name="main_menu_practice">실전 연습하기</string>
+    <string name="main_menu_exam">시험보기</string>
+    <string name="main_menu_manual">사용법 알아보기</string>
+
+    <!--Script Activity-->
+    <string name="script_empty_message">스크립트가 없습니다.</string>
+    <string name="go_description_activity_message">스크립트 추가 방법 알아보기 →</string>
+    <string name="previous_script">이전</string>
+    <string name="next_script">다음</string>
+
+    <!--Practice Activity-->
+    <string name="click_play_button">Click PLAY Button</string>
+    <string name="playing">Playing...</string>
+    <string name="recording">Recording...</string>
+    <string name="recommend_next_question">Time for a new question</string>
+    <string name="current_time">00:00</string>
+    <string name="total_time"> / 40분</string>
+    <string name="status_text">Click PLAY Button</string>
+    <string name="script_question">■ 질문</string>
+    <string name="script_answer">■ 답변</string>
+    <string name="show_script">스크립트 보기</string>
+    <string name="hide_script">스크립트 숨기기</string>
+
+    <!--Description Activity-->
+    <string name="script_write_rule_title">■ 스크립트 작성 규칙</string>
+    <string name="script_write_rule_content">질문과 답변 사이에 빈줄 1개를 삽입합니다.</string>
+    <string name="how_to_add_script_title">■ 스크립트 추가하는 방법</string>
+    <string name="how_to_add_script_content">내 파일 > OpicPracticeApplication > Script 폴더에 작성한 스크립트 파일을 넣습니다.</string>
+</resources>

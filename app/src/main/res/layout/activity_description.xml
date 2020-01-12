@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/description_activity_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/description_activity_title_text_size"
+        android:textColor="@color/ScriptTextColor"
+        android:textStyle="bold"
+        android:text="@string/script_write_rule_title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/description_activity_content_text_size"
+        android:textColor="@color/ScriptTextColor"
+        android:text="@string/script_write_rule_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/script_write_rule_example"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/description_activity_title_top_margin"
+        android:textSize="@dimen/description_activity_title_text_size"
+        android:textColor="@color/ScriptTextColor"
+        android:textStyle="bold"
+        android:text="@string/how_to_add_script_title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/description_activity_content_text_size"
+        android:textColor="@color/ScriptTextColor"
+        android:text="@string/how_to_add_script_content"/>
+</LinearLayout>

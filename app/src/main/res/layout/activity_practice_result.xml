@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_practice_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.sh.opicpracticeapplication.practice.PracticeResultActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/practice_result_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/script_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_weight="1">
+        <!--닫기 버튼 영역-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/script_close_button"
+                android:layout_width="@dimen/result_activity_script_close_button_width"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/result_activity_script_close_button_padding"
+                android:adjustViewBounds="true"
+                android:src="@drawable/script_close_button"/>
+        </RelativeLayout>
+
+        <!--질문 영역-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/result_activity_script_area_padding">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/result_activity_script_title_text_size"
+                android:textColor="@color/ScriptTextColor"
+                android:textStyle="bold"
+                android:text="@string/script_question" />
+            <TextView
+                android:id="@+id/textview_question_practice_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/result_activity_script_content_text_size"
+                android:textColor="@color/ScriptTextColor" />
+
+            <!--답변 영역-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/result_activity_script_title_text_size"
+                android:textColor="@color/ScriptTextColor"
+                android:textStyle="bold"
+                android:text="@string/script_answer" />
+            <TextView
+                android:id="@+id/textview_answer_practice_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:textSize="@dimen/result_activity_script_content_text_size"
+                android:textColor="@color/ScriptTextColor" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

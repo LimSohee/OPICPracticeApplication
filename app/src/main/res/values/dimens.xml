@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main Activity-->
+    <dimen name="main_activity_title_bottom_margin">66dp</dimen>
+    <dimen name="main_activity_menu_button_left_right_margin">60dp</dimen>
+    <dimen name="main_activity_menu_button_side_margin">20dp</dimen>
+    <dimen name="main_activity_title1_text_size">40dp</dimen>
+    <dimen name="main_activity_title2_text_size">30dp</dimen>
+    <dimen name="main_activity_menu_button_text_size">16dp</dimen>
+
+    <!--Script Activity-->
+    <dimen name="script_activity_script_empty_message_bottom_margin">10dp</dimen>
+    <dimen name="script_activity_margin">10dp</dimen>
+    <dimen name="script_activity_button_text_size">16dp</dimen>
+    <dimen name="script_activity_count_text_size">14dp</dimen>
+    <dimen name="script_activity_script_title_text_size">20dp</dimen>
+    <dimen name="script_activity_script_content_text_size">16dp</dimen>
+    <dimen name="script_activity_sound_image_left_margin">10dp</dimen>
+    <dimen name="script_activity_sound_image_height">20dp</dimen>
+
+    <!--Practice Activity-->
+    <dimen name="practice_activity_margin">6dp</dimen>
+
+    <dimen name="practice_activity_question_table_area_padding">6dp</dimen>
+    <dimen name="practice_activity_time_area_top_margin">6dp</dimen>
+    <dimen name="practice_activity_time_area_padding">4dp</dimen>
+    <dimen name="practice_activity_time_image_right_margin">4dp</dimen>
+    <dimen name="practice_activity_current_time_text_size">14dp</dimen>
+    <dimen name="practice_activity_script_top_margin">6dp</dimen>
+    <dimen name="practice_activity_question_number_area_margin">2dp</dimen>
+    <dimen name="practice_activity_question_number_area_padding">2dp</dimen>
+    <dimen name="practice_activity_question_number_text_size">12dp</dimen>
+    <dimen name="practice_activity_question_number_area_width_height">20dp</dimen>
+
+    <dimen name="practice_activity_question_control_area_padding">6dp</dimen>
+    <dimen name="practice_activity_question_control_area_left_right_margin">6dp</dimen>
+    <dimen name="practice_activity_status_text_padding">4dp</dimen>
+    <dimen name="practice_activity_status_text_size">14dp</dimen>
+    <dimen name="practice_activity_play_button_area_padding">4dp</dimen>
+    <dimen name="practice_activity_play_button_width_size">60dp</dimen>
+
+    <dimen name="practice_activity_next_button_area_padding">6dp</dimen>
+    <dimen name="practice_activity_next_button_width_size">50dp</dimen>
+
+    <dimen name="practice_activity_script_area_top_margin">6dp</dimen>
+    <dimen name="practice_activity_script_title_text_size">20dp</dimen>
+    <dimen name="practice_activity_script_content_text_size">16dp</dimen>
+
+    <!--Result Activity-->
+    <dimen name="result_activity_script_close_button_width">30dp</dimen>
+    <dimen name="result_activity_script_close_button_padding">4dp</dimen>
+    <dimen name="result_activity_script_area_padding">4dp</dimen>
+    <dimen name="result_activity_script_title_text_size">20dp</dimen>
+    <dimen name="result_activity_script_content_text_size">16dp</dimen>
+    <dimen name="result_activity_list_item_padding">10dp</dimen>
+    <dimen name="result_activity_filename_text_size">20dp</dimen>
+    <dimen name="result_activity_button_height">30dp</dimen>
+    <dimen name="result_activity_button_size_margin">10dp</dimen>
+
+    <!--Description Activity-->
+    <dimen name="description_activity_margin">10dp</dimen>
+    <dimen name="description_activity_title_text_size">20dp</dimen>
+    <dimen name="description_activity_content_text_size">16dp</dimen>
+    <dimen name="description_activity_title_top_margin">16dp</dimen>
+</resources>

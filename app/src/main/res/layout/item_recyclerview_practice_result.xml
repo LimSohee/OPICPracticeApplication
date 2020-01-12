@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="@dimen/result_activity_list_item_padding">
+
+    <TextView
+        android:id="@+id/filename_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/result_activity_filename_text_size"
+        android:textColor="@color/ScriptTextColor"/>
+
+    <ImageView
+        android:id="@+id/sound_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/result_activity_button_height"
+        android:layout_toLeftOf="@+id/script_view_button"
+        android:layout_marginRight="@dimen/result_activity_button_size_margin"
+        android:adjustViewBounds="true"
+        android:src="@drawable/sound_button_selector" />
+
+    <ImageView
+        android:id="@+id/script_view_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/result_activity_button_height"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/script_view_button_selector" />
+
+</RelativeLayout>

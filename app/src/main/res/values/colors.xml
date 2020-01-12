@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#207800</color>
+    <color name="colorPrimaryDark">#205600</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Main Activity-->
+    <color name="MainMenuStroke">#20CD00</color>
+    <color name="MainMenuTextColor">#000000</color>
+
+    <!--Script Activity-->
+    <color name="ScriptTextColor">#555555</color>
+
+    <!--Practice Activity-->
+    <color name="QuestionNumberTextColor">#000000</color>
+    <color name="CurQuestionNumber">#FF6E30</color>
+    <color name="NotCurQuestionNumber">#9E9E9E</color>
+    <color name="TimeAreaBackgroundColor">#000000</color>
+    <color name="TimeTextColor">#FFFFFF</color>
+    <color name="StatusTextColor">#CC6699</color>
+    <color name="PlayButtonAreaBackgroundColor">#5D5D5D</color>
+</resources>
