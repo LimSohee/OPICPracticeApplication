@@ -102,7 +102,7 @@ public class ScriptViewPagerAdapter extends PagerAdapter {
         //답변
         mAnswerTextView = (TextView) itemView.findViewById(R.id.textview_script_answer);
         mAnswerTextView.setMovementMethod(new ScrollingMovementMethod());
-        mAnswerTextView.setText(item.getAnwser());
+        mAnswerTextView.setText(item.getAnswer());
 
         mAnswerSoundImageView = (ImageView) itemView.findViewById(R.id.imageview_answer_sound);
         mAnswerSoundImageView.setTag(position);
@@ -137,7 +137,7 @@ public class ScriptViewPagerAdapter extends PagerAdapter {
     //스크립트의 답변을 읽어주는 함수
     public void startAnswerSpeak(int position) {
         ScriptData item = (ScriptData) mItemList.get(position);
-        String answer = item.getAnwser();
+        String answer = item.getAnswer();
         mTTS.speak(answer, TextToSpeech.QUEUE_FLUSH, null);
     }
 

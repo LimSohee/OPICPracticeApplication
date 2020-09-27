@@ -80,7 +80,7 @@ public class PracticeResultActivity extends AppCompatActivity implements ResultR
         //스크립트 보이기
         mScriptViewLayout.setVisibility(View.VISIBLE);
         mQuestionTextView.setText(item.getQuestion());
-        mAnswerTextView.setText(item.getAnwser());
+        mAnswerTextView.setText(item.getAnswer());
     }
 
     //재생 버튼 Click 시

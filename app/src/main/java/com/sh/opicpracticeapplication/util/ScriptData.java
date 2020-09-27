@@ -10,12 +10,12 @@ public class ScriptData implements Serializable {
 
     String fileName;
     String question;
-    String anwser;
+    String answer;
 
-    public ScriptData(String fileName, String question, String anwser) {
+    public ScriptData(String fileName, String question, String answer) {
         this.fileName = fileName;
         this.question = question;
-        this.anwser = anwser;
+        this.answer = answer;
     }
 
     public String getFileName() {
@@ -34,11 +34,11 @@ public class ScriptData implements Serializable {
         this.question = question;
     }
 
-    public String getAnwser() {
-        return anwser;
+    public String getAnswer() {
+        return answer;
     }
 
-    public void setAnwser(String anwser) {
-        this.anwser = anwser;
+    public void setAnswer(String answer) {
+        this.answer = answer;
     }
 }

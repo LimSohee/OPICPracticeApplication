@@ -7,7 +7,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.widget.Toast;
 
@@ -126,7 +125,7 @@ public class CheckPermissionUtil {
         }
     }
 
-    public static void onRequestPermissionsResult(Context context, int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+    public static void onRequestPermissionsResult(Context context, int requestCode, String[] permissions, int[] grantResults) {
         if (Build.VERSION.SDK_INT >= 23) {
             if(grantResults[0]== PackageManager.PERMISSION_GRANTED){
                 if(requestCode == SCRIPT_LOAD_RESULT_CODE) {

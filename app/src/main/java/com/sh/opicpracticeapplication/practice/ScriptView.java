@@ -45,7 +45,7 @@ public class ScriptView extends FrameLayout {
             //첫번째 스크립트로 변경
             ScriptData item = (ScriptData) mScriptList.get(0);
             mQuestionTextView.setText(item.getQuestion());
-            mAnswerTextView.setText(item.getAnwser());
+            mAnswerTextView.setText(item.getAnswer());
         }
     }
 
@@ -56,6 +56,6 @@ public class ScriptView extends FrameLayout {
 
         ScriptData item = (ScriptData) mScriptList.get(curQuestionNum);
         mQuestionTextView.setText(item.getQuestion());
-        mAnswerTextView.setText(item.getAnwser());
+        mAnswerTextView.setText(item.getAnswer());
     }
 }
